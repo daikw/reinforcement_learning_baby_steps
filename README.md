@@ -1,0 +1,2 @@
+# reinforcement_learning_baby_steps
+「Pythonで学ぶ強化学習」を動かしてみる
