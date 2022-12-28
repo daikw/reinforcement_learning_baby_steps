@@ -15,6 +15,7 @@ tensorflow = "*"
 h5py = "*"
 pygame = "*"
 tqdm = "*"
+tornado = "*"
 
 [dev-packages]
 
