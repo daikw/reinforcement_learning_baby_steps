@@ -4,7 +4,6 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-gym = "*"
 jupyter = "*"
 numpy = "*"
 pandas = "*"
@@ -17,6 +16,7 @@ pygame = "*"
 tqdm = "*"
 tornado = "*"
 ipdb = "*"
+gymnasium = "*"
 
 [dev-packages]
 

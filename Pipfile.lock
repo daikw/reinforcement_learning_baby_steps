@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "4398b877a8c903d7ec6075e69c65610b7e125c94824259d4dd8d0aef52ee7eec"
+            "sha256": "ac34610ded27e8bbd9952c84ecda35c04dee2d3b2e318cdcaee3cc8ee9558709"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -480,19 +480,20 @@
             "markers": "python_version >= '3.7'",
             "version": "==1.51.1"
         },
-        "gym": {
+        "gymnasium": {
             "hashes": [
-                "sha256:e0d882f4b54f0c65f203104c24ab8a38b039f1289986803c7d02cdbe214fbcc4"
+                "sha256:40cf994bba24a1d574bf2c2ec53ecbd0dc924e584314c08fb4f94f2c45495fbf",
+                "sha256:a2af8c9687a3d779f2ffee7d469013884c0ef8c7364866aa419a8372f2d39cc4"
             ],
             "index": "pypi",
-            "version": "==0.26.2"
+            "version": "==0.27.0"
         },
-        "gym-notices": {
+        "gymnasium-notices": {
             "hashes": [
-                "sha256:ad25e200487cafa369728625fe064e88ada1346618526102659b4640f2b4b911",
-                "sha256:e5f82e00823a166747b4c2a07de63b6560b1acb880638547e0cabf825a01e463"
+                "sha256:3e8c868046f56dea84c949cc7e97383cccfab27152fc3f4968754e4c9c087ab9",
+                "sha256:be68c8399e88b554b6db1eb3c484b00f229cbe5c930f64f6ae9cd1a6e93db1c5"
             ],
-            "version": "==0.0.8"
+            "version": "==0.0.1"
         },
         "h5py": {
             "hashes": [
@@ -573,6 +574,14 @@
                 "sha256:b2904c2a4228c3d44f409c8ae8e2370eb21a26f7ac2ec5446df141dde3452042"
             ],
             "version": "==20.11.0"
+        },
+        "jax-jumpy": {
+            "hashes": [
+                "sha256:8ffe4e7609461d13decc97269ff48a3ee8d7570c96cbcc82487f893a3dd65093",
+                "sha256:eaa7587e3fda30278011ca4e815bf9ac6b71db29502c0fa15908eb532c206a9e"
+            ],
+            "markers": "python_version >= '3.7'",
+            "version": "==0.2.0"
         },
         "jedi": {
             "hashes": [
@@ -1660,6 +1669,14 @@
             ],
             "markers": "python_version >= '3.7'",
             "version": "==65.6.3"
+        },
+        "shimmy": {
+            "hashes": [
+                "sha256:1e0e098b7e6ab91ee0c48de6f5fbc6de6308314706656fad323b624dca1c4b60",
+                "sha256:44ae4518509e5611eb4d5cc15b80f0ac23fe8ff034151d463c633ba7b8394e08"
+            ],
+            "markers": "python_version >= '3.7'",
+            "version": "==0.2.0"
         },
         "six": {
             "hashes": [
