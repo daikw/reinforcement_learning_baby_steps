@@ -17,6 +17,7 @@ tqdm = "*"
 tornado = "*"
 ipdb = "*"
 gymnasium = "*"
+moviepy = "*"
 
 [dev-packages]
 
