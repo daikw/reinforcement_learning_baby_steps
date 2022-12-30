@@ -4,12 +4,13 @@ import matplotlib.pyplot as plt
 
 class ELAgent():
 
-    def __init__(self, epsilon, verbose=False):
+    def __init__(self, epsilon=0.1, verbose=False):
         self.Q = {}
         self.epsilon = epsilon
         self.reward_log = []
         self.verbose = verbose
 
+    # epsilon_greedy policy
     def policy(self, s, actions):
         if np.random.random() < self.epsilon:
             return np.random.randint(len(actions))

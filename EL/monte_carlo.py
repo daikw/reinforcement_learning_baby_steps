@@ -29,7 +29,7 @@ class MonteCarloAgent(ELAgent):
             else:
                 self.log(reward)
 
-            # Evaluate each state, action.
+            # Feedback experience to Q-table, after each episode finished
             for i, x in enumerate(experience):
                 s, a = x["state"], x["action"]
 
