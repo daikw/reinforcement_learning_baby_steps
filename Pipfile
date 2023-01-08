@@ -10,7 +10,6 @@ pandas = "*"
 scipy = "*"
 scikit-learn = "*"
 matplotlib = "*"
-tensorflow = "*"
 h5py = "*"
 pygame = "*"
 tqdm = "*"
@@ -18,6 +17,9 @@ tornado = "*"
 ipdb = "*"
 gymnasium = "*"
 moviepy = "*"
+nvidia-pyindex = "*"
+nvidia-tensorrt = "==8.4.1.5"
+tf-nightly = "==2.12.0.dev20221202"
 
 [dev-packages]
 
